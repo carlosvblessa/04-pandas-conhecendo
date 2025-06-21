@@ -1,0 +1,3 @@
+from trello_to_github_issues import get_github_token_from_gitconfig
+
+print(get_github_token_from_gitconfig())

@@ -20,6 +20,7 @@ Este projeto tem como objetivo atender às demandas do time de Desenvolvimento e
 | `/src` | Scripts principais para ETL e análise |
 | `/notebooks` | Notebooks Jupyter para exploração interativa |
 | `/docs` | Documentação adicional |
+| `/aux` | Script e arquivo para conversão de Trello para issues no Github |
 
 ## 📌 Tarefas
 
@@ -65,8 +66,6 @@ Veja as instruções abaixo para configurar o repositório localmente.
    pandas
    jupyter
    matplotlib
-   seaborn
-   scikit-learn
    ```
 
 6. **Commit inicial:**
@@ -76,23 +75,3 @@ Veja as instruções abaixo para configurar o repositório localmente.
    git commit -m "setup inicial do projeto"
    git push origin main
    ```
-
----
-
-## 🎁 Bônus: GitHub Project (opcional)
-
-Se quiser replicar o layout do Trello no GitHub:
-
-1. Crie um **GitHub Project (Beta)**
-2. Use a API GraphQL para adicionar os cards automaticamente (posso te ajudar com isso também)
-
----
-
-## ✔️ Próximos Passos Recomendados
-
-- Suba o dataset CSV na pasta `data/`
-- Crie um notebook de análise exploratória
-- Divida scripts em módulos (`load_data.py`, `clean_data.py`, etc.)
-- Configure CI/CD (GitHub Actions) para testes automáticos
-
-

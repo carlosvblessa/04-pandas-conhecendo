@@ -1,0 +1,3165 @@
+{
+  "id": "6856aa96c2f2c445733f617d",
+  "nodeId": "ari:cloud:trello::board/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f617d",
+  "name": "Pandas: conhecendo a biblioteca",
+  "desc": "",
+  "descData": null,
+  "closed": false,
+  "dateClosed": null,
+  "idOrganization": "6856a9fb918f4a31c1ee038f",
+  "idEnterprise": null,
+  "limits": {
+    "attachments": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 36000,
+        "warnAt": 28800
+      },
+      "perCard": {
+        "status": "ok",
+        "disableAt": 1000,
+        "warnAt": 800
+      }
+    },
+    "boards": {
+      "totalMembersPerBoard": {
+        "status": "ok",
+        "disableAt": 1600,
+        "warnAt": 1280
+      },
+      "totalAccessRequestsPerBoard": {
+        "status": "ok",
+        "disableAt": 4000,
+        "warnAt": 3200
+      }
+    },
+    "cards": {
+      "openPerBoard": {
+        "status": "ok",
+        "disableAt": 5000,
+        "warnAt": 4000
+      },
+      "openPerList": {
+        "status": "ok",
+        "disableAt": 5000,
+        "warnAt": 4000
+      },
+      "totalPerBoard": {
+        "status": "ok",
+        "disableAt": 2000000,
+        "warnAt": 1600000
+      },
+      "totalPerList": {
+        "status": "ok",
+        "disableAt": 1000000,
+        "warnAt": 800000
+      }
+    },
+    "checklists": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 1800000,
+        "warnAt": 1440000
+      },
+      "perCard": {
+        "status": "ok",
+        "disableAt": 500,
+        "warnAt": 400
+      }
+    },
+    "checkItems": {
+      "perChecklist": {
+        "status": "ok",
+        "disableAt": 200,
+        "warnAt": 160
+      }
+    },
+    "customFields": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 50,
+        "warnAt": 40
+      }
+    },
+    "customFieldOptions": {
+      "perField": {
+        "status": "ok",
+        "disableAt": 50,
+        "warnAt": 40
+      }
+    },
+    "labels": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 1000,
+        "warnAt": 800
+      }
+    },
+    "lists": {
+      "openPerBoard": {
+        "status": "ok",
+        "disableAt": 500,
+        "warnAt": 400
+      },
+      "totalPerBoard": {
+        "status": "ok",
+        "disableAt": 3000,
+        "warnAt": 2400
+      }
+    },
+    "stickers": {
+      "perCard": {
+        "status": "ok",
+        "disableAt": 70,
+        "warnAt": 56
+      }
+    },
+    "reactions": {
+      "perAction": {
+        "status": "ok",
+        "disableAt": 900,
+        "warnAt": 720
+      },
+      "uniquePerAction": {
+        "status": "ok",
+        "disableAt": 17,
+        "warnAt": 14
+      }
+    }
+  },
+  "pinned": false,
+  "starred": false,
+  "url": "https://trello.com/b/p58hoAc0/pandas-conhecendo-a-biblioteca",
+  "prefs": {
+    "permissionLevel": "private",
+    "hideVotes": false,
+    "voting": "disabled",
+    "comments": "members",
+    "invitations": "members",
+    "selfJoin": true,
+    "cardCovers": true,
+    "showCompleteStatus": true,
+    "cardCounts": false,
+    "isTemplate": false,
+    "cardAging": "regular",
+    "calendarFeedEnabled": false,
+    "hiddenPluginBoardButtons": [],
+    "switcherViews": [
+      {
+        "viewType": "Board",
+        "enabled": true
+      },
+      {
+        "viewType": "Table",
+        "enabled": true
+      },
+      {
+        "viewType": "Calendar",
+        "enabled": false
+      },
+      {
+        "viewType": "Dashboard",
+        "enabled": false
+      },
+      {
+        "viewType": "Timeline",
+        "enabled": false
+      },
+      {
+        "viewType": "Map",
+        "enabled": false
+      }
+    ],
+    "autoArchive": null,
+    "background": "64061f1ef86bd26304a0dc59",
+    "backgroundColor": null,
+    "backgroundDarkColor": null,
+    "backgroundImage": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/original/9a5daa89dc425d7983cd5c186f23a4c8/Capa_trello.jpg",
+    "backgroundDarkImage": null,
+    "backgroundImageScaled": [
+      {
+        "width": 140,
+        "height": 79,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/140x79/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 256,
+        "height": 144,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/256x144/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 480,
+        "height": 270,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/480x270/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/960x540/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 576,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/1024x576/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/1280x720/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/1920x1080/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 2048,
+        "height": 1152,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/2048x1152/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 2560,
+        "height": 1440,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/2560x1440/bc90c961488eb1eb1ea630ba252a3ac1/Capa_trello.jpg"
+      },
+      {
+        "width": 3414,
+        "height": 1920,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/6303bef9dc5a376c5fcf8b57/original/9a5daa89dc425d7983cd5c186f23a4c8/Capa_trello.jpg"
+      }
+    ],
+    "backgroundTile": false,
+    "backgroundBrightness": "light",
+    "sharedSourceUrl": null,
+    "backgroundBottomColor": "#fbfbfb",
+    "backgroundTopColor": "#c3e059",
+    "canBePublic": false,
+    "canBeEnterprise": false,
+    "canBeOrg": false,
+    "canBePrivate": false,
+    "canInvite": true
+  },
+  "shortLink": "p58hoAc0",
+  "subscribed": false,
+  "labelNames": {
+    "green": "Demanda do DEV",
+    "yellow": "",
+    "orange": "",
+    "red": "",
+    "purple": "Demanda de ML",
+    "blue": "",
+    "sky": "",
+    "lime": "",
+    "pink": "",
+    "black": "",
+    "green_dark": "",
+    "yellow_dark": "",
+    "orange_dark": "",
+    "red_dark": "",
+    "purple_dark": "",
+    "blue_dark": "",
+    "sky_dark": "",
+    "lime_dark": "",
+    "pink_dark": "",
+    "black_dark": "",
+    "green_light": "",
+    "yellow_light": "",
+    "orange_light": "",
+    "red_light": "",
+    "purple_light": "",
+    "blue_light": "",
+    "sky_light": "",
+    "lime_light": "",
+    "pink_light": "",
+    "black_light": ""
+  },
+  "powerUps": [],
+  "dateLastActivity": "2025-06-21T12:50:31.148Z",
+  "dateLastView": "2025-06-21T12:50:31.905Z",
+  "shortUrl": "https://trello.com/b/p58hoAc0",
+  "idTags": [],
+  "datePluginDisable": null,
+  "creationMethod": null,
+  "ixUpdate": "3",
+  "templateGallery": null,
+  "enterpriseOwned": false,
+  "idBoardSource": "6406218b0736d410d0c099c0",
+  "premiumFeatures": [
+    "activity",
+    "additionalBoardBackgrounds",
+    "additionalStickers",
+    "advancedChecklists",
+    "aiQuickCapture",
+    "atlassianIntelligence",
+    "boardExport",
+    "butlerBC",
+    "butlerPremium",
+    "collapsibleLists",
+    "csvExport",
+    "customBoardBackgrounds",
+    "customEmoji",
+    "customStickers",
+    "deactivated",
+    "export",
+    "goldMembers",
+    "inviteBoard",
+    "inviteOrg",
+    "isBc",
+    "isPremium",
+    "largeAttachments",
+    "listColors",
+    "multiBoardGuests",
+    "observers",
+    "paidCorePlugins",
+    "plugins",
+    "premiumMirrorCards",
+    "privateTemplates",
+    "readSecrets",
+    "removal",
+    "restrictVis",
+    "savedSearches",
+    "shortExportHistory",
+    "starCounts",
+    "superAdmins",
+    "tags",
+    "views",
+    "workspaceViews"
+  ],
+  "idMemberCreator": "6856a9dcf3c55eddeb2fcd5e",
+  "type": null,
+  "actions": [
+    {
+      "id": "6856aa96c2f2c445733f623e",
+      "idMemberCreator": "6856a9dcf3c55eddeb2fcd5e",
+      "data": {
+        "board": {
+          "id": "6856aa96c2f2c445733f617d",
+          "name": "Pandas: conhecendo a biblioteca",
+          "shortLink": "p58hoAc0"
+        },
+        "organization": {
+          "id": "6856a9fb918f4a31c1ee038f",
+          "name": "Área de trabalho do Trello"
+        }
+      },
+      "appCreator": null,
+      "type": "addToOrganizationBoard",
+      "date": "2025-06-21T12:50:30.394Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "6856a9dcf3c55eddeb2fcd5e",
+        "activityBlocked": false,
+        "avatarHash": "90b100c7c03f85c28628d1de779f657c",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/6856a9dcf3c55eddeb2fcd5e/90b100c7c03f85c28628d1de779f657c",
+        "fullName": "Carlos Lessa",
+        "idMemberReferrer": null,
+        "initials": "CL",
+        "nonPublic": {
+          "fullName": "Carlos Lessa",
+          "initials": "CL",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "carloslessa15"
+      }
+    },
+    {
+      "id": "6856aa96c2f2c445733f623b",
+      "idMemberCreator": "6856a9dcf3c55eddeb2fcd5e",
+      "data": {
+        "board": {
+          "id": "6856aa96c2f2c445733f617d",
+          "name": "Pandas: conhecendo a biblioteca",
+          "shortLink": "p58hoAc0"
+        },
+        "boardSource": {
+          "id": "6406218b0736d410d0c099c0",
+          "prefs": {
+            "isTemplate": false
+          }
+        }
+      },
+      "appCreator": null,
+      "type": "copyBoard",
+      "date": "2025-06-21T12:50:30.387Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "6856a9dcf3c55eddeb2fcd5e",
+        "activityBlocked": false,
+        "avatarHash": "90b100c7c03f85c28628d1de779f657c",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/6856a9dcf3c55eddeb2fcd5e/90b100c7c03f85c28628d1de779f657c",
+        "fullName": "Carlos Lessa",
+        "idMemberReferrer": null,
+        "initials": "CL",
+        "nonPublic": {
+          "fullName": "Carlos Lessa",
+          "initials": "CL",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "carloslessa15"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "6856aa96c2f2c445733f61bc",
+      "address": null,
+      "badges": {
+        "attachments": 1,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:31.102Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dto+1xec45u3mj@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [],
+      "idLabels": [],
+      "idList": "6856aa96c2f2c445733f6179",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 11,
+      "idAttachmentCover": "6856aa96c2f2c445733f63b4",
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": ".",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61bc",
+      "pinned": false,
+      "pos": 32767.5,
+      "shortLink": "HBJ1OzRF",
+      "shortUrl": "https://trello.com/c/HBJ1OzRF",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/HBJ1OzRF/11-untitled",
+      "cover": {
+        "idAttachment": "6856aa96c2f2c445733f63b4",
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "scaled": [
+          {
+            "id": "6856aa96c2f2c445733f63b5",
+            "_id": "6856aa96c2f2c445733f63b5",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b5/download/INFOS.jpg",
+            "bytes": 34691,
+            "height": 50,
+            "width": 70
+          },
+          {
+            "id": "6856aa96c2f2c445733f63b7",
+            "_id": "6856aa96c2f2c445733f63b7",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b7/download/INFOS.jpg",
+            "bytes": 38991,
+            "height": 99,
+            "width": 150
+          },
+          {
+            "id": "6856aa96c2f2c445733f63b6",
+            "_id": "6856aa96c2f2c445733f63b6",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b6/download/INFOS.jpg",
+            "bytes": 44858,
+            "height": 150,
+            "width": 250
+          },
+          {
+            "id": "6856aa96c2f2c445733f63b8",
+            "_id": "6856aa96c2f2c445733f63b8",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b8/download/INFOS.jpg",
+            "bytes": 50924,
+            "height": 198,
+            "width": 300
+          },
+          {
+            "id": "6856aa96c2f2c445733f63b9",
+            "_id": "6856aa96c2f2c445733f63b9",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b9/download/INFOS.jpg",
+            "bytes": 79838,
+            "height": 396,
+            "width": 600
+          },
+          {
+            "id": "6856aa96c2f2c445733f63ba",
+            "_id": "6856aa96c2f2c445733f63ba",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63ba/download/INFOS.jpg",
+            "bytes": 153555,
+            "height": 792,
+            "width": 1200
+          },
+          {
+            "id": "6856aa96c2f2c445733f63bb",
+            "_id": "6856aa96c2f2c445733f63bb",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63bb/download/INFOS.jpg",
+            "bytes": 183123,
+            "height": 1080,
+            "width": 1636
+          }
+        ],
+        "edgeColor": "#3c3c3c",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [
+        {
+          "id": "6856aa96c2f2c445733f63b4",
+          "bytes": 183123,
+          "date": "2023-03-06T15:44:24.114Z",
+          "edgeColor": "#3c3c3c",
+          "idMember": "6856a9dcf3c55eddeb2fcd5e",
+          "isMalicious": false,
+          "isUpload": true,
+          "mimeType": "image/jpeg",
+          "name": "INFOS.jpg",
+          "previews": [
+            {
+              "id": "6856aa96c2f2c445733f63b5",
+              "_id": "6856aa96c2f2c445733f63b5",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b5/download/INFOS.jpg",
+              "bytes": 34691,
+              "height": 50,
+              "width": 70
+            },
+            {
+              "id": "6856aa96c2f2c445733f63b6",
+              "_id": "6856aa96c2f2c445733f63b6",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b6/download/INFOS.jpg",
+              "bytes": 44858,
+              "height": 150,
+              "width": 250
+            },
+            {
+              "id": "6856aa96c2f2c445733f63b7",
+              "_id": "6856aa96c2f2c445733f63b7",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b7/download/INFOS.jpg",
+              "bytes": 38991,
+              "height": 99,
+              "width": 150
+            },
+            {
+              "id": "6856aa96c2f2c445733f63b8",
+              "_id": "6856aa96c2f2c445733f63b8",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b8/download/INFOS.jpg",
+              "bytes": 50924,
+              "height": 198,
+              "width": 300
+            },
+            {
+              "id": "6856aa96c2f2c445733f63b9",
+              "_id": "6856aa96c2f2c445733f63b9",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63b9/download/INFOS.jpg",
+              "bytes": 79838,
+              "height": 396,
+              "width": 600
+            },
+            {
+              "id": "6856aa96c2f2c445733f63ba",
+              "_id": "6856aa96c2f2c445733f63ba",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63ba/download/INFOS.jpg",
+              "bytes": 153555,
+              "height": 792,
+              "width": 1200
+            },
+            {
+              "id": "6856aa96c2f2c445733f63bb",
+              "_id": "6856aa96c2f2c445733f63bb",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/previews/6856aa96c2f2c445733f63bb/download/INFOS.jpg",
+              "bytes": 183123,
+              "height": 1080,
+              "width": 1636
+            }
+          ],
+          "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61bc/attachments/6856aa96c2f2c445733f63b4/download/INFOS.jpg",
+          "pos": 32768,
+          "fileName": "INFOS.jpg"
+        }
+      ],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61b0",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.479Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "Nós fomos contratados como cientistas de dados de uma empresa imobiliária. Nossa principal função é dar suporte as demandas do time de Machine Learning e do time de Desenvolvimento dessa empresa.\n\nPara atendermos essas demandas, foi disponibilizado um board no Trello, com as etapas e tarefas do projeto que devemos realizar. Também foi disponibilizada uma base de dados, que utilizaremos para desenvolver o projeto.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dtc+07a0pglbug@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [],
+      "idLabels": [],
+      "idList": "6856aa96c2f2c445733f6179",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 5,
+      "idAttachmentCover": null,
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Projeto",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61b0",
+      "pinned": false,
+      "pos": 65535,
+      "shortLink": "tl3WghwH",
+      "shortUrl": "https://trello.com/c/tl3WghwH",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/tl3WghwH/5-projeto",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61b2",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.480Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "A base de dados que vamos utilizar para desenvolver o projeto é uma base com dados de diferentes tipos de imóveis do Rio de Janeiro, como apartamento, casas, comércios, dentre outros.\n\nNessa base, nós vamos encontrar os valores dos aluguéis de cada imóvel, condomínio, IPTU e também suas características, como: quantidade de quartos, suítes, vagas de garagem, etc.\n\nLink para acessar a base de dados: [aluguel.csv](https://raw.githubusercontent.com/alura-cursos/pandas-conhecendo-a-biblioteca/main/base-de-dados/aluguel.csv \"‌\")",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dte+2fg9nnv0br@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [],
+      "idLabels": [],
+      "idList": "6856aa96c2f2c445733f6179",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 6,
+      "idAttachmentCover": null,
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Base de dados",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61b2",
+      "pinned": false,
+      "pos": 131071,
+      "shortLink": "sJY9Utr9",
+      "shortUrl": "https://trello.com/c/sJY9Utr9",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/sJY9Utr9/6-base-de-dados",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61be",
+      "address": null,
+      "badges": {
+        "attachments": 1,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:31.148Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dtq+0zyd2v6144@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [],
+      "idLabels": [],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 12,
+      "idAttachmentCover": "6856aa96c2f2c445733f63bd",
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": ".",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61be",
+      "pinned": false,
+      "pos": 16383.75,
+      "shortLink": "eZZCaLDa",
+      "shortUrl": "https://trello.com/c/eZZCaLDa",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/eZZCaLDa/12-untitled",
+      "cover": {
+        "idAttachment": "6856aa96c2f2c445733f63bd",
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "scaled": [
+          {
+            "id": "6856aa96c2f2c445733f63be",
+            "_id": "6856aa96c2f2c445733f63be",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63be/download/A_FAZER.jpg",
+            "bytes": 34226,
+            "height": 50,
+            "width": 70
+          },
+          {
+            "id": "6856aa96c2f2c445733f63c0",
+            "_id": "6856aa96c2f2c445733f63c0",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c0/download/A_FAZER.jpg",
+            "bytes": 37354,
+            "height": 99,
+            "width": 150
+          },
+          {
+            "id": "6856aa96c2f2c445733f63bf",
+            "_id": "6856aa96c2f2c445733f63bf",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63bf/download/A_FAZER.jpg",
+            "bytes": 41928,
+            "height": 150,
+            "width": 250
+          },
+          {
+            "id": "6856aa96c2f2c445733f63c1",
+            "_id": "6856aa96c2f2c445733f63c1",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c1/download/A_FAZER.jpg",
+            "bytes": 45977,
+            "height": 198,
+            "width": 300
+          },
+          {
+            "id": "6856aa96c2f2c445733f63c2",
+            "_id": "6856aa96c2f2c445733f63c2",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c2/download/A_FAZER.jpg",
+            "bytes": 67816,
+            "height": 396,
+            "width": 600
+          },
+          {
+            "id": "6856aa96c2f2c445733f63c3",
+            "_id": "6856aa96c2f2c445733f63c3",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c3/download/A_FAZER.jpg",
+            "bytes": 127083,
+            "height": 792,
+            "width": 1200
+          },
+          {
+            "id": "6856aa96c2f2c445733f63c4",
+            "_id": "6856aa96c2f2c445733f63c4",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c4/download/A_FAZER.jpg",
+            "bytes": 153177,
+            "height": 1080,
+            "width": 1636
+          }
+        ],
+        "edgeColor": "#3c3c3c",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [
+        {
+          "id": "6856aa96c2f2c445733f63bd",
+          "bytes": 153177,
+          "date": "2023-03-06T15:37:53.284Z",
+          "edgeColor": "#3c3c3c",
+          "idMember": "6856a9dcf3c55eddeb2fcd5e",
+          "isMalicious": false,
+          "isUpload": true,
+          "mimeType": "image/jpeg",
+          "name": "A FAZER.jpg",
+          "previews": [
+            {
+              "id": "6856aa96c2f2c445733f63be",
+              "_id": "6856aa96c2f2c445733f63be",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63be/download/A_FAZER.jpg",
+              "bytes": 34226,
+              "height": 50,
+              "width": 70
+            },
+            {
+              "id": "6856aa96c2f2c445733f63bf",
+              "_id": "6856aa96c2f2c445733f63bf",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63bf/download/A_FAZER.jpg",
+              "bytes": 41928,
+              "height": 150,
+              "width": 250
+            },
+            {
+              "id": "6856aa96c2f2c445733f63c0",
+              "_id": "6856aa96c2f2c445733f63c0",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c0/download/A_FAZER.jpg",
+              "bytes": 37354,
+              "height": 99,
+              "width": 150
+            },
+            {
+              "id": "6856aa96c2f2c445733f63c1",
+              "_id": "6856aa96c2f2c445733f63c1",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c1/download/A_FAZER.jpg",
+              "bytes": 45977,
+              "height": 198,
+              "width": 300
+            },
+            {
+              "id": "6856aa96c2f2c445733f63c2",
+              "_id": "6856aa96c2f2c445733f63c2",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c2/download/A_FAZER.jpg",
+              "bytes": 67816,
+              "height": 396,
+              "width": 600
+            },
+            {
+              "id": "6856aa96c2f2c445733f63c3",
+              "_id": "6856aa96c2f2c445733f63c3",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c3/download/A_FAZER.jpg",
+              "bytes": 127083,
+              "height": 792,
+              "width": 1200
+            },
+            {
+              "id": "6856aa96c2f2c445733f63c4",
+              "_id": "6856aa96c2f2c445733f63c4",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/previews/6856aa96c2f2c445733f63c4/download/A_FAZER.jpg",
+              "bytes": 153177,
+              "height": 1080,
+              "width": 1636
+            }
+          ],
+          "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61be/attachments/6856aa96c2f2c445733f63bd/download/A_FAZER.jpg",
+          "pos": 65536,
+          "fileName": "A_FAZER.jpg"
+        }
+      ],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61b4",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 2,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.474Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "O primeiro passo para começarmos o projeto é importar a base de dados e verificar algumas características gerais, como:\n\n- quantidade de linhas e colunas;\n- quais as colunas da base de dados;\n- explorar as diferentes colunas existentes;\n- verificar os tipos dos dados.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dtg+25rtfl3uw6@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61d1"
+      ],
+      "idLabels": [],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 7,
+      "idAttachmentCover": null,
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Importar e conhecer a base de dados",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61b4",
+      "pinned": false,
+      "pos": 32767.5,
+      "shortLink": "2s2nE26H",
+      "shortUrl": "https://trello.com/c/2s2nE26H",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/2s2nE26H/7-importar-e-conhecer-a-base-de-dados",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61a8",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 2,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.475Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "O processo de **Análise Exploratória de Dados (EDA)** consiste em buscar entender como são estruturados os dados que queremos analisar.\n\nÉ um processo de caráter **investigativo**, onde tentamos compreender várias características, como: os valores presentes nas colunas, os tipos de estrutura de dados, verificar se são dados qualitativos ou quantitativos, se há valores faltantes ou incomuns.\n\nPor isso, nesse momento, perguntas sobre os dados são sempre bem-vindas. Elas irão guiar todo o processo de análise, e, através das ferramentas disponíveis, como o nosso querido **Pandas**, iremos buscar por **respostas**.\n\nAlgumas perguntas que podemos fazer nesse momento:\n\n1. Quais os valores médios de aluguel por tipo de imóvel?\n2. Qual o percentual de cada tipo de imóvel na nossa base de dados?",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dt4+0mcnhr4dke@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61ce"
+      ],
+      "idLabels": [
+        "6856aa96c2f2c445733f626f"
+      ],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 1,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6856aa96c2f2c445733f626f",
+          "idBoard": "6856aa96c2f2c445733f617d",
+          "idOrganization": "6856a9fb918f4a31c1ee038f",
+          "name": "Demanda de ML",
+          "nodeId": "ari:cloud:trello::label/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f626f",
+          "color": "purple",
+          "uses": 5
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Análise exploratória dos dados",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61a8",
+      "pinned": false,
+      "pos": 49151.25,
+      "shortLink": "ZM9Jaq2v",
+      "shortUrl": "https://trello.com/c/ZM9Jaq2v",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/ZM9Jaq2v/1-an%C3%A1lise-explorat%C3%B3ria-dos-dados",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61aa",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 2,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.476Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "Como nossos dados serão usados pelo time de ML para criação de um modelo de precificação de imóveis, é importante tratarmos os dados nulos, uma vez que dados nulos não podem ser utilizados no treinamento de modelos de ML.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dt6+1cu0cwwglm@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61cf"
+      ],
+      "idLabels": [
+        "6856aa96c2f2c445733f626f"
+      ],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 2,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6856aa96c2f2c445733f626f",
+          "idBoard": "6856aa96c2f2c445733f617d",
+          "idOrganization": "6856a9fb918f4a31c1ee038f",
+          "name": "Demanda de ML",
+          "nodeId": "ari:cloud:trello::label/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f626f",
+          "color": "purple",
+          "uses": 5
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Tratar valores nulos",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61aa",
+      "pinned": false,
+      "pos": 196607,
+      "shortLink": "jrkvmjJv",
+      "shortUrl": "https://trello.com/c/jrkvmjJv",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/jrkvmjJv/2-tratar-valores-nulos",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61b6",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 2,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.477Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "Alguns registros existentes na base de dados não fazem muito sentido, por exemplo:\n\n- apartamentos que possuem valor de aluguel igual a 0;\n- apartamentos com o valor do condomínio igual a 0.\n\nEsses registros são inconsistentes, por isso devemos removê-los da nossa base de dados.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dti+1r6i9kuabd@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61d2"
+      ],
+      "idLabels": [
+        "6856aa96c2f2c445733f626f"
+      ],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 8,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6856aa96c2f2c445733f626f",
+          "idBoard": "6856aa96c2f2c445733f617d",
+          "idOrganization": "6856a9fb918f4a31c1ee038f",
+          "name": "Demanda de ML",
+          "nodeId": "ari:cloud:trello::label/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f626f",
+          "color": "purple",
+          "uses": 5
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Remover registros inconsistentes",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61b6",
+      "pinned": false,
+      "pos": 524287,
+      "shortLink": "cxczbleK",
+      "shortUrl": "https://trello.com/c/cxczbleK",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/cxczbleK/8-remover-registros-inconsistentes",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61b8",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 1,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.478Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "Nesse momento, o time de ML deseja avaliar apenas imóveis em cenários específicos, como:\n\n**1**. Apartamentos que possuem 1 quarto e aluguel menor que R$ 1200;\n\n**2**. Apartamentos que possuem pelo menos 2 quartos, aluguel menor que R$ 3000 e área maior que 70 m².\n\nCom base nisso, precisamos aplicar os filtros necessários para obter essas informações específicas.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dtk+2cw21yukg4@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61d3"
+      ],
+      "idLabels": [
+        "6856aa96c2f2c445733f626f"
+      ],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 9,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6856aa96c2f2c445733f626f",
+          "idBoard": "6856aa96c2f2c445733f617d",
+          "idOrganization": "6856a9fb918f4a31c1ee038f",
+          "name": "Demanda de ML",
+          "nodeId": "ari:cloud:trello::label/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f626f",
+          "color": "purple",
+          "uses": 5
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Aplicar filtros",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61b8",
+      "pinned": false,
+      "pos": 589823,
+      "shortLink": "WHe1cfLS",
+      "shortUrl": "https://trello.com/c/WHe1cfLS",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/WHe1cfLS/9-aplicar-filtros",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61ba",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 1,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.479Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "Para finalizar, precisamos salvar nosso dataframe no **formato csv**, após todas as análises e tratamentos.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dtm+0qd4ycrgg8@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61d4"
+      ],
+      "idLabels": [
+        "6856aa96c2f2c445733f626f"
+      ],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 10,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6856aa96c2f2c445733f626f",
+          "idBoard": "6856aa96c2f2c445733f617d",
+          "idOrganization": "6856a9fb918f4a31c1ee038f",
+          "name": "Demanda de ML",
+          "nodeId": "ari:cloud:trello::label/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f626f",
+          "color": "purple",
+          "uses": 5
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Salvar os dados",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61ba",
+      "pinned": false,
+      "pos": 655359,
+      "shortLink": "Vb2Rfbs5",
+      "shortUrl": "https://trello.com/c/Vb2Rfbs5",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/Vb2Rfbs5/10-salvar-os-dados",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61ac",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 2,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.476Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "O time de desenvolvedores do site da empresa solicitou a criação de duas novas colunas numéricas na nossa base de dados. No site dos imóveis, eles gostariam de apresentar informações mais sumarizadas em relação a valores. Para isso, essas colunas serão importantes:\n\n- **valor\\_por\\_mes**: essa coluna deve conter os gastos mensais de cada imóvel, incluindo aluguel e condomínio;\n- **valor\\_por\\_ano**: essa coluna deve conter os gastos anuais por imóvel, ou seja, IPTU mais 12 meses de aluguel e condomínio.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dt8+1nvcppzy2w@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61cd"
+      ],
+      "idLabels": [
+        "6856aa96c2f2c445733f626e"
+      ],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 3,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6856aa96c2f2c445733f626e",
+          "idBoard": "6856aa96c2f2c445733f617d",
+          "idOrganization": "6856a9fb918f4a31c1ee038f",
+          "name": "Demanda do DEV",
+          "nodeId": "ari:cloud:trello::label/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f626e",
+          "color": "green",
+          "uses": 2
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Criar colunas numéricas",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61ac",
+      "pinned": false,
+      "pos": 688127,
+      "shortLink": "mITSbztM",
+      "shortUrl": "https://trello.com/c/mITSbztM",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/mITSbztM/3-criar-colunas-num%C3%A9ricas",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61ae",
+      "address": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 2,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:30.477Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "O time de desenvolvimento solicitou a criação de mais duas colunas. No entanto, dessa vez elas são categóricas:\n\n- **Descrição**: essa coluna deve possuir uma sumarização das principais informações dos imóveis que serão apresentadas no site: tipo de imóvel, bairro, quantidade de quartos e vagas de garagem;\n- **Possui_suite**: essa deve ser uma coluna que informe apenas se o imóvel possui ou não suítes, sem se importar com a quantidade.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dta+0khlcz6r9s@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [
+        "6856aa96c2f2c445733f61d0"
+      ],
+      "idLabels": [
+        "6856aa96c2f2c445733f626e"
+      ],
+      "idList": "6856aa96c2f2c445733f617a",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 4,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6856aa96c2f2c445733f626e",
+          "idBoard": "6856aa96c2f2c445733f617d",
+          "idOrganization": "6856a9fb918f4a31c1ee038f",
+          "name": "Demanda do DEV",
+          "nodeId": "ari:cloud:trello::label/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f626e",
+          "color": "green",
+          "uses": 2
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Criar colunas categóricas",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61ae",
+      "pinned": false,
+      "pos": 720895,
+      "shortLink": "HQ2vfhj9",
+      "shortUrl": "https://trello.com/c/HQ2vfhj9",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/HQ2vfhj9/4-criar-colunas-categ%C3%B3ricas",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61c0",
+      "address": null,
+      "badges": {
+        "attachments": 1,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:31.138Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dts+1xnrlb51ad@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [],
+      "idLabels": [],
+      "idList": "6856aa96c2f2c445733f617b",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 13,
+      "idAttachmentCover": "6856aa96c2f2c445733f63c6",
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": ".",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61c0",
+      "pinned": false,
+      "pos": 8191.875,
+      "shortLink": "m5XyllAW",
+      "shortUrl": "https://trello.com/c/m5XyllAW",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/m5XyllAW/13-untitled",
+      "cover": {
+        "idAttachment": "6856aa96c2f2c445733f63c6",
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "scaled": [
+          {
+            "id": "6856aa96c2f2c445733f63c7",
+            "_id": "6856aa96c2f2c445733f63c7",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63c7/download/EM_ANDAMENTO.jpg",
+            "bytes": 34542,
+            "height": 50,
+            "width": 70
+          },
+          {
+            "id": "6856aa96c2f2c445733f63c9",
+            "_id": "6856aa96c2f2c445733f63c9",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63c9/download/EM_ANDAMENTO.jpg",
+            "bytes": 38474,
+            "height": 99,
+            "width": 150
+          },
+          {
+            "id": "6856aa96c2f2c445733f63c8",
+            "_id": "6856aa96c2f2c445733f63c8",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63c8/download/EM_ANDAMENTO.jpg",
+            "bytes": 44850,
+            "height": 150,
+            "width": 250
+          },
+          {
+            "id": "6856aa96c2f2c445733f63ca",
+            "_id": "6856aa96c2f2c445733f63ca",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63ca/download/EM_ANDAMENTO.jpg",
+            "bytes": 49708,
+            "height": 198,
+            "width": 300
+          },
+          {
+            "id": "6856aa96c2f2c445733f63cb",
+            "_id": "6856aa96c2f2c445733f63cb",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63cb/download/EM_ANDAMENTO.jpg",
+            "bytes": 80260,
+            "height": 396,
+            "width": 600
+          },
+          {
+            "id": "6856aa96c2f2c445733f63cc",
+            "_id": "6856aa96c2f2c445733f63cc",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63cc/download/EM_ANDAMENTO.jpg",
+            "bytes": 164197,
+            "height": 792,
+            "width": 1200
+          },
+          {
+            "id": "6856aa96c2f2c445733f63cd",
+            "_id": "6856aa96c2f2c445733f63cd",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63cd/download/EM_ANDAMENTO.jpg",
+            "bytes": 203740,
+            "height": 1080,
+            "width": 1636
+          }
+        ],
+        "edgeColor": "#3c3c3c",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [
+        {
+          "id": "6856aa96c2f2c445733f63c6",
+          "bytes": 203740,
+          "date": "2023-03-06T15:38:01.421Z",
+          "edgeColor": "#3c3c3c",
+          "idMember": "6856a9dcf3c55eddeb2fcd5e",
+          "isMalicious": false,
+          "isUpload": true,
+          "mimeType": "image/jpeg",
+          "name": "EM ANDAMENTO.jpg",
+          "previews": [
+            {
+              "id": "6856aa96c2f2c445733f63c7",
+              "_id": "6856aa96c2f2c445733f63c7",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63c7/download/EM_ANDAMENTO.jpg",
+              "bytes": 34542,
+              "height": 50,
+              "width": 70
+            },
+            {
+              "id": "6856aa96c2f2c445733f63c8",
+              "_id": "6856aa96c2f2c445733f63c8",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63c8/download/EM_ANDAMENTO.jpg",
+              "bytes": 44850,
+              "height": 150,
+              "width": 250
+            },
+            {
+              "id": "6856aa96c2f2c445733f63c9",
+              "_id": "6856aa96c2f2c445733f63c9",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63c9/download/EM_ANDAMENTO.jpg",
+              "bytes": 38474,
+              "height": 99,
+              "width": 150
+            },
+            {
+              "id": "6856aa96c2f2c445733f63ca",
+              "_id": "6856aa96c2f2c445733f63ca",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63ca/download/EM_ANDAMENTO.jpg",
+              "bytes": 49708,
+              "height": 198,
+              "width": 300
+            },
+            {
+              "id": "6856aa96c2f2c445733f63cb",
+              "_id": "6856aa96c2f2c445733f63cb",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63cb/download/EM_ANDAMENTO.jpg",
+              "bytes": 80260,
+              "height": 396,
+              "width": 600
+            },
+            {
+              "id": "6856aa96c2f2c445733f63cc",
+              "_id": "6856aa96c2f2c445733f63cc",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63cc/download/EM_ANDAMENTO.jpg",
+              "bytes": 164197,
+              "height": 792,
+              "width": 1200
+            },
+            {
+              "id": "6856aa96c2f2c445733f63cd",
+              "_id": "6856aa96c2f2c445733f63cd",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/previews/6856aa96c2f2c445733f63cd/download/EM_ANDAMENTO.jpg",
+              "bytes": 203740,
+              "height": 1080,
+              "width": 1636
+            }
+          ],
+          "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c0/attachments/6856aa96c2f2c445733f63c6/download/EM_ANDAMENTO.jpg",
+          "pos": 65536,
+          "fileName": "EM_ANDAMENTO.jpg"
+        }
+      ],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "6856aa96c2f2c445733f61c2",
+      "address": null,
+      "badges": {
+        "attachments": 1,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "externalSource": null,
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "creationMethodError": null,
+      "creationMethodLoadingStartedAt": null,
+      "dueComplete": false,
+      "dateClosed": null,
+      "dateLastActivity": "2025-06-21T12:50:31.140Z",
+      "dateCompleted": null,
+      "dateViewedByCreator": null,
+      "desc": "",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": "carloslessa15+34pd7xknq1l8u45v7mm+34pd8ho0uau4e1s7dtu+2gtrhx8t97@boards.trello.com",
+      "externalSource": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idChecklists": [],
+      "idLabels": [],
+      "idList": "6856aa96c2f2c445733f617c",
+      "idMemberCreator": null,
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "idShort": 14,
+      "idAttachmentCover": "6856aa96c2f2c445733f63cf",
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": ".",
+      "nodeId": "ari:cloud:trello::card/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f61c2",
+      "pinned": false,
+      "pos": 4095.9375,
+      "shortLink": "e0nQmQqU",
+      "shortUrl": "https://trello.com/c/e0nQmQqU",
+      "singleInstrumentationId": null,
+      "sourceEmail": null,
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/e0nQmQqU/14-untitled",
+      "cover": {
+        "idAttachment": "6856aa96c2f2c445733f63cf",
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "scaled": [
+          {
+            "id": "6856aa96c2f2c445733f63d0",
+            "_id": "6856aa96c2f2c445733f63d0",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d0/download/CONCLU%C3%8DDO.jpg",
+            "bytes": 34538,
+            "height": 50,
+            "width": 70
+          },
+          {
+            "id": "6856aa96c2f2c445733f63d2",
+            "_id": "6856aa96c2f2c445733f63d2",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d2/download/CONCLU%C3%8DDO.jpg",
+            "bytes": 37587,
+            "height": 99,
+            "width": 150
+          },
+          {
+            "id": "6856aa96c2f2c445733f63d1",
+            "_id": "6856aa96c2f2c445733f63d1",
+            "scaled": false,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d1/download/CONCLU%C3%8DDO.jpg",
+            "bytes": 42892,
+            "height": 150,
+            "width": 250
+          },
+          {
+            "id": "6856aa96c2f2c445733f63d3",
+            "_id": "6856aa96c2f2c445733f63d3",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d3/download/CONCLU%C3%8DDO.jpg",
+            "bytes": 47021,
+            "height": 198,
+            "width": 300
+          },
+          {
+            "id": "6856aa96c2f2c445733f63d4",
+            "_id": "6856aa96c2f2c445733f63d4",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d4/download/CONCLU%C3%8DDO.jpg",
+            "bytes": 69805,
+            "height": 396,
+            "width": 600
+          },
+          {
+            "id": "6856aa96c2f2c445733f63d5",
+            "_id": "6856aa96c2f2c445733f63d5",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d5/download/CONCLU%C3%8DDO.jpg",
+            "bytes": 129146,
+            "height": 792,
+            "width": 1200
+          },
+          {
+            "id": "6856aa96c2f2c445733f63d6",
+            "_id": "6856aa96c2f2c445733f63d6",
+            "scaled": true,
+            "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d6/download/CONCLU%C3%8DDO.jpg",
+            "bytes": 155586,
+            "height": 1080,
+            "width": 1636
+          }
+        ],
+        "edgeColor": "#3c3c3c",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null,
+      "mirrorSourceNodeId": null,
+      "attachments": [
+        {
+          "id": "6856aa96c2f2c445733f63cf",
+          "bytes": 155586,
+          "date": "2023-03-06T15:38:09.781Z",
+          "edgeColor": "#3c3c3c",
+          "idMember": "6856a9dcf3c55eddeb2fcd5e",
+          "isMalicious": false,
+          "isUpload": true,
+          "mimeType": "image/jpeg",
+          "name": "CONCLUÍDO.jpg",
+          "previews": [
+            {
+              "id": "6856aa96c2f2c445733f63d0",
+              "_id": "6856aa96c2f2c445733f63d0",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d0/download/CONCLU%C3%8DDO.jpg",
+              "bytes": 34538,
+              "height": 50,
+              "width": 70
+            },
+            {
+              "id": "6856aa96c2f2c445733f63d1",
+              "_id": "6856aa96c2f2c445733f63d1",
+              "scaled": false,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d1/download/CONCLU%C3%8DDO.jpg",
+              "bytes": 42892,
+              "height": 150,
+              "width": 250
+            },
+            {
+              "id": "6856aa96c2f2c445733f63d2",
+              "_id": "6856aa96c2f2c445733f63d2",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d2/download/CONCLU%C3%8DDO.jpg",
+              "bytes": 37587,
+              "height": 99,
+              "width": 150
+            },
+            {
+              "id": "6856aa96c2f2c445733f63d3",
+              "_id": "6856aa96c2f2c445733f63d3",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d3/download/CONCLU%C3%8DDO.jpg",
+              "bytes": 47021,
+              "height": 198,
+              "width": 300
+            },
+            {
+              "id": "6856aa96c2f2c445733f63d4",
+              "_id": "6856aa96c2f2c445733f63d4",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d4/download/CONCLU%C3%8DDO.jpg",
+              "bytes": 69805,
+              "height": 396,
+              "width": 600
+            },
+            {
+              "id": "6856aa96c2f2c445733f63d5",
+              "_id": "6856aa96c2f2c445733f63d5",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d5/download/CONCLU%C3%8DDO.jpg",
+              "bytes": 129146,
+              "height": 792,
+              "width": 1200
+            },
+            {
+              "id": "6856aa96c2f2c445733f63d6",
+              "_id": "6856aa96c2f2c445733f63d6",
+              "scaled": true,
+              "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/previews/6856aa96c2f2c445733f63d6/download/CONCLU%C3%8DDO.jpg",
+              "bytes": 155586,
+              "height": 1080,
+              "width": 1636
+            }
+          ],
+          "url": "https://trello.com/1/cards/6856aa96c2f2c445733f61c2/attachments/6856aa96c2f2c445733f63cf/download/CONCLU%C3%8DDO.jpg",
+          "pos": 65536,
+          "fileName": "CONCLU%C3%8DDO.jpg"
+        }
+      ],
+      "pluginData": [],
+      "customFieldItems": []
+    }
+  ],
+  "labels": [
+    {
+      "id": "6856aa96c2f2c445733f626f",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "name": "Demanda de ML",
+      "color": "purple",
+      "uses": 5
+    },
+    {
+      "id": "6856aa96c2f2c445733f626e",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "name": "Demanda do DEV",
+      "color": "green",
+      "uses": 2
+    }
+  ],
+  "lists": [
+    {
+      "id": "6856aa96c2f2c445733f6179",
+      "name": "Informações do projeto",
+      "closed": false,
+      "color": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "pos": 32767.5,
+      "subscribed": false,
+      "softLimit": null,
+      "type": null,
+      "datasource": {
+        "filter": false
+      },
+      "creationMethod": null,
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4000
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 800000
+          }
+        }
+      },
+      "nodeId": "ari:cloud:trello::list/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f6179"
+    },
+    {
+      "id": "6856aa96c2f2c445733f617a",
+      "name": "A fazer",
+      "closed": false,
+      "color": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "pos": 65535,
+      "subscribed": false,
+      "softLimit": null,
+      "type": null,
+      "datasource": {
+        "filter": false
+      },
+      "creationMethod": null,
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4000
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 800000
+          }
+        }
+      },
+      "nodeId": "ari:cloud:trello::list/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f617a"
+    },
+    {
+      "id": "6856aa96c2f2c445733f617b",
+      "name": "Em andamento",
+      "closed": false,
+      "color": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "pos": 131071,
+      "subscribed": false,
+      "softLimit": null,
+      "type": null,
+      "datasource": {
+        "filter": false
+      },
+      "creationMethod": null,
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4000
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 800000
+          }
+        }
+      },
+      "nodeId": "ari:cloud:trello::list/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f617b"
+    },
+    {
+      "id": "6856aa96c2f2c445733f617c",
+      "name": "Concluído",
+      "closed": false,
+      "color": null,
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "pos": 196607,
+      "subscribed": false,
+      "softLimit": null,
+      "type": null,
+      "datasource": {
+        "filter": false
+      },
+      "creationMethod": null,
+      "idOrganization": "6856a9fb918f4a31c1ee038f",
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4000
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 800000
+          }
+        }
+      },
+      "nodeId": "ari:cloud:trello::list/workspace/6856a9fb918f4a31c1ee038f/6856aa96c2f2c445733f617c"
+    }
+  ],
+  "members": [
+    {
+      "id": "6856a9dcf3c55eddeb2fcd5e",
+      "aaId": "712020:a46f7e7d-88ec-4040-bc17-07af8eca5a2b",
+      "activityBlocked": false,
+      "avatarHash": "90b100c7c03f85c28628d1de779f657c",
+      "avatarUrl": "https://trello-members.s3.amazonaws.com/6856a9dcf3c55eddeb2fcd5e/90b100c7c03f85c28628d1de779f657c",
+      "bio": "",
+      "bioData": null,
+      "confirmed": true,
+      "fullName": "Carlos Lessa",
+      "idEnterprise": null,
+      "idEnterprisesDeactivated": [],
+      "idMemberReferrer": null,
+      "idPremOrgsAdmin": [
+        "6856a9fb918f4a31c1ee038f",
+        "6856aa01a63de180c3102d09"
+      ],
+      "initials": "CL",
+      "memberType": "normal",
+      "nonPublic": {
+        "fullName": "Carlos Lessa",
+        "initials": "CL",
+        "avatarHash": null
+      },
+      "nonPublicAvailable": true,
+      "products": [],
+      "url": "https://trello.com/u/carloslessa15",
+      "username": "carloslessa15",
+      "status": "disconnected"
+    }
+  ],
+  "checklists": [
+    {
+      "id": "6856aa96c2f2c445733f61d3",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61b8",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f637c",
+          "name": "Aplicar os filtros necessários",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 16629,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d3"
+        }
+      ],
+      "creationMethod": null
+    },
+    {
+      "id": "6856aa96c2f2c445733f61ce",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61a8",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f6368",
+          "name": "Valores médios de aluguel por tipo de imóvel",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 16920,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61ce"
+        },
+        {
+          "id": "6856aa96c2f2c445733f6369",
+          "name": "Percentual de cada tipo de imóvel presente na base de dados",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 33384,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61ce"
+        }
+      ],
+      "creationMethod": null
+    },
+    {
+      "id": "6856aa96c2f2c445733f61d0",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61ae",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f637f",
+          "name": "Criar a coluna de descrição",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 16544,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d0"
+        },
+        {
+          "id": "6856aa96c2f2c445733f6380",
+          "name": "Criar a coluna possui_suite",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 33156,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d0"
+        }
+      ],
+      "creationMethod": null
+    },
+    {
+      "id": "6856aa96c2f2c445733f61cd",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61ac",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f6387",
+          "name": "Criar coluna valor_por_mes",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 16917,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61cd"
+        },
+        {
+          "id": "6856aa96c2f2c445733f6388",
+          "name": "Criar coluna valor_por_ano",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 33948,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61cd"
+        }
+      ],
+      "creationMethod": null
+    },
+    {
+      "id": "6856aa96c2f2c445733f61d2",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61b6",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f6377",
+          "name": "Remover apartamentos com valor igual a 0",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 17294,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d2"
+        },
+        {
+          "id": "6856aa96c2f2c445733f6378",
+          "name": "Remover apartamentos com condomínio igual a 0",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 34547,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d2"
+        }
+      ],
+      "creationMethod": null
+    },
+    {
+      "id": "6856aa96c2f2c445733f61cf",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61aa",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f636d",
+          "name": "Verificar a existência de dados nulos",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 16395,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61cf"
+        },
+        {
+          "id": "6856aa96c2f2c445733f636e",
+          "name": "Tratar os dados nulos",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 33585,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61cf"
+        }
+      ],
+      "creationMethod": null
+    },
+    {
+      "id": "6856aa96c2f2c445733f61d1",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61b4",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f6372",
+          "name": "Importar os dados",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 16486,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d1"
+        },
+        {
+          "id": "6856aa96c2f2c445733f6373",
+          "name": "Explorar as características gerais dos dados",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 33482,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d1"
+        }
+      ],
+      "creationMethod": null
+    },
+    {
+      "id": "6856aa96c2f2c445733f61d4",
+      "name": "Tarefas",
+      "idBoard": "6856aa96c2f2c445733f617d",
+      "idCard": "6856aa96c2f2c445733f61ba",
+      "pos": 16384,
+      "limits": {
+        "checkItems": {
+          "perChecklist": {
+            "status": "ok",
+            "disableAt": 200,
+            "warnAt": 160
+          }
+        }
+      },
+      "checkItems": [
+        {
+          "id": "6856aa96c2f2c445733f6384",
+          "name": "Salvar o dataframe completo após todas as modificações",
+          "nameData": {
+            "emoji": {}
+          },
+          "pos": 34028,
+          "state": "incomplete",
+          "due": null,
+          "dueReminder": null,
+          "idMember": "6856aa96c2f2c445733f6367",
+          "idChecklist": "6856aa96c2f2c445733f61d4"
+        }
+      ],
+      "creationMethod": null
+    }
+  ],
+  "customFields": [],
+  "memberships": [
+    {
+      "id": "6856aa96c2f2c445733f6213",
+      "idMember": "6856a9dcf3c55eddeb2fcd5e",
+      "memberType": "admin",
+      "unconfirmed": false,
+      "deactivated": false
+    }
+  ],
+  "pluginData": []
+}

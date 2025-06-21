@@ -57,7 +57,7 @@ Veja as instruções abaixo para configurar o repositório localmente.
 4. **Adicione `.gitignore` básico:**
 
    ```bash
-   echo "*.pyc\n__pycache__\n*.ipynb\n.env\n.DS_Store" > .gitignore
+   echo "*.pyc\n__pycache__\nS.env\n.DS_Store" > .gitignore
    ```
 
 5. **Arquivo `requirements.txt`:**

@@ -18,7 +18,6 @@ Este projeto tem como objetivo atender às demandas do time de Desenvolvimento e
 |-------|-----------|
 | `/data` | Armazena os datasets brutos e processados |
 | `/notebooks` | Notebooks Jupyter para exploração interativa |
-| `/docs` | Documentação adicional |
 | `/aux` | Script e arquivo para conversão de Trello para issues no Github |
 
 ## 📌 Tarefas

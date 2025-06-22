@@ -64,7 +64,6 @@ Veja as instruções abaixo para configurar o repositório localmente.
    ```txt
    pandas
    jupyter
-   matplotlib
    ```
 
 6. **Commit inicial:**

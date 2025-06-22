@@ -63,7 +63,7 @@ Veja as instruções abaixo para configurar o repositório localmente.
    ```txt
    pandas
    jupyter
-   requestsS
+   requests
    ```
 
 6. **Commit inicial:**

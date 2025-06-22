@@ -43,7 +43,7 @@ Veja as instruções abaixo para configurar o repositório localmente.
 
    ```bash
    git clone https://github.com/carlosvblessa/04-pandas-conhecendo.git
-   cd pandas-projeto-exploratorio
+   cd 04-pandas-conhecendo
    ```
 
 3. **Estrutura inicial recomendada:**
